@@ -339,7 +339,7 @@ if "__main__"==__name__:
     split_rate = 0.2 # test set rate
     threshold = [0.8, 1, 1.2, 1.5] # for splitting y to 5 class (0,1,2,3,4)
     embedded_path = f'data/embedded data for {group} (full).csv' # default path save in function"get_embedded_data"
-    n_trials = 10 # iterations for optimize parameters
+    n_trials = 100 # iterations for optimize parameters
     algo = 'TPE'
 
     get_embedded_data(group,results_addr)
